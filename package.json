@@ -1,0 +1,23 @@
+{
+  "name": "redis-node-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "author": "Shahnawaz Ali <shahnawazakausar@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "redis": "^3.0.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node-fetch": "^2.5.7",
+    "@types/redis": "^2.8.25",
+    "ts-node-dev": "^1.0.0-pre.56"
+  }
+}
